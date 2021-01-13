@@ -1,0 +1,17 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_9_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect id="canvas_background" fill="transparent" height="602" width="602" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect rx="50" id="svg_2" height="87" width="538" y="256.5" x="31" stroke-width="1.5" stroke="#ffffff" fill="#fff"/>
+  <rect rx="50" id="svg_7" height="87" width="538" y="74.5" x="31" stroke-width="1.5" stroke="#ffffff" fill="#fff"/>
+  <rect rx="50" id="svg_9" height="87" width="538" y="438.5" x="31" stroke-width="1.5" stroke="#ffffff" fill="#fff"/>
+ </g>
+</svg>
