@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <header>
     <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
@@ -8,6 +7,10 @@
     <script type="text/javascript" src="/js/main.js" ></script>
   </header>
   <body>
+  <div class="warningDiv">
+    <p>This website is no longer being mantained. Please refer to my GitHub for more information on the new website. Sorry for the inconvenience.</p>
+    <div id="warningDivClose">x</div>
+  </div>
   <div id="wrapper">
     <div id="header-menu">
       <p id="header-menu-title" >Daniel Melchor</p>
@@ -16,8 +19,8 @@
       </div>
       <ul class="header-menu-links">
         <a href="/"><li class="header-menu-links-item" >Home</li></a>
-        <a href="/gallery/"><li class="header-menu-links-item" >Gallery</li></a>
-        <a href="/about/"><li class="header-menu-links-item" >About me</li></a>
-        <a href="/contact/"><li class="header-menu-links-item" id="header-menu-links-contact" >Get in touch</li></a>
+        <li class="disabledLinks header-menu-links-item" >Gallery</li>
+        <li class="disabledLinks header-menu-links-item" >About me</li>
+        <a href="/contact.php/"><li class="header-menu-links-item" id="header-menu-links-contact" >Get in touch</li></a>
       </ul>
     </div>

@@ -74,4 +74,8 @@ $(document).ready(function() {
       $(this).children('.home-lib-examples-description').removeClass('home-lib-examples-descr--open',300);
     }
   });
+
+  $('#warningDivClose').click(function() {
+    $('.warningDiv').hide();
+  });
 });

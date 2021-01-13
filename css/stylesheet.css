@@ -42,6 +42,38 @@ body {
   font-family: Helvetica;
   overflow-y: scroll; }
 
+  .warningDiv {
+    background-color: #fff7aa;
+    padding: 5vh;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 100;
+    height: 1vh;
+    width: 100vw;
+  }
+
+  .warningDiv p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #warningDivClose {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: red;
+    color: #fff7aa;
+    font-weight: bold;
+    width: 30px;
+    font-size: 16px;
+    height: 30px;
+    border-radius: 100%;
+    line-height: 30px;
+    text-align: center;
+  }
+
 #wrapper {
   margin: 0 auto;
   width: 100%; }
@@ -155,6 +187,11 @@ body {
   text-align: left;
   padding: 40px 60px;
   padding-left: 10%; }
+
+  .disabledLinks {
+    cursor: not-allowed;
+  }
+
   @media screen and (min-width: 1024px) {
     .header-menu-links-item {
       display: inline-block;
@@ -576,6 +613,7 @@ body {
   font-family: Helvetica;
   font-size: 12px;
   margin: 3px auto;
+  margin-left: 20px;
   width: 75%;
   border-radius: 1px; }
 
@@ -595,7 +633,8 @@ body {
 #contact-select-div {
   position: relative;
   width: 86.5%;
-  margin: 3px auto; }
+  margin: 3px auto;
+  margin-left: 20px; }
   #contact-select-div::after {
     content: "<>";
     position: absolute;
